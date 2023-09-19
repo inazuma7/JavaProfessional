@@ -20,7 +20,7 @@ public class ListFromSingleLine {
 		
 		//List<Integer> items = Arrays.stream(values.split(" ")).map(Integer::parseInt).collect(Collectors.toList());
 		
-		System.out.println(String.join("; ", nums));
+		System.out.println(String.join("; ", items));
 		
 	}
 
